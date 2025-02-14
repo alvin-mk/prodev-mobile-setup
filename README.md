@@ -18,3 +18,13 @@ This project is a mobile application built using **React Native** and **Expo**. 
 - **`assets/`**: Contains images and other static resources.
 - **`README.md`**: Project documentation.
 
+## Challenges Faced
+
+1. **Expo Go Connection Issues:**
+   - Initially, the app wouldn't load on my physical device. I resolved this by ensuring both my computer and phone were on the same Wi-Fi network.
+
+2. **Styling in React Native:**
+   - I struggled with aligning components properly. Using `flexbox` and `StyleSheet` helped me achieve the desired layout.
+
+3. **TypeScript Errors:**
+   - I encountered TypeScript errors when using custom props. Adding proper type definitions resolved the issue.
