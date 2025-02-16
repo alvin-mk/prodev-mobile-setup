@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "esnext", // Specify ECMAScript target version
+    "module": "commonjs", // Specify module code generation
+    "lib": ["dom", "esnext"], // Specify library files to be included in the compilation
+    "allowJs": true, // Allow JavaScript files to be compiled
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "esModuleInterop": true, // Enable compatibility with ES modules
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "strict": true, // Enable all strict type-checking options
+    "forceConsistentCasingInFileNames": true, // Disallow inconsistently-cased references to the same file
+    "moduleResolution": "node", // Specify module resolution strategy
+    "resolveJsonModule": true, // Allow importing JSON files
+    "isolatedModules": true, // Ensure each file can be safely transpiled without relying on other imports
+    "noEmit": true, // Do not emit output (React Native uses Babel for transpilation)
+    "jsx": "react-native", // Support JSX in .tsx files
+
+    /* Path Mapping */
+    "baseUrl": ".", // Base directory to resolve non-absolute module names
+    "paths": {
+      "@/*": ["./app/*"] // Map "@/" to the "app" directory
+    }
+  },
+  "include": ["**/*.ts", "**/*.tsx"], // Include all TypeScript files
+  "exclude": ["node_modules", "expo", "babel.config.js"] // Exclude unnecessary files
+}
